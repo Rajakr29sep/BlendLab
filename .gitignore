@@ -7,3 +7,7 @@ __pycache__/
 *.pyc
 .venv/
 ml-service/models/*.joblib
+frontend/node_modules/
+frontend/env
+backend/node_modules/
+backend/env
