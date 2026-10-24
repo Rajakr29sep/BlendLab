@@ -1,0 +1,22 @@
+import express from 'express';
+import cors from 'cors';
+import { env } from './config/env.js';
+import healthRoutes from './routes/health.routes.js';
+import datasetRoutes from './routes/dataset.routes.js';
+import labRoutes from './routes/lab.routes.js';
+import recommendationRoutes from './routes/recommendation.routes.js';
+import ingredientRoutes from './routes/ingredient.routes.js';
+import { notFound, errorHandler } from './middleware/errorHandler.js';
+
+const app = express();
+app.disable('x-powered-by');
+app.use(cors({ origin: env.frontendOrigin }));
+app.use(express.json({ limit: '1mb' }));
+app.use('/api/health', healthRoutes);
+app.use('/api/dataset', datasetRoutes);
+app.use('/api/lab', labRoutes);
+app.use('/api/recommendations', recommendationRoutes);
+app.use('/api/ingredients', ingredientRoutes);
+app.use(notFound);
+app.use(errorHandler);
+export default app;
