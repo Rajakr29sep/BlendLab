@@ -1,0 +1,1 @@
+import {Router} from 'express';const router=Router();router.get('/summary',(req,res)=>res.status(501).json({available:false,message:'Dataset import is not implemented yet. CSV ingestion is a planned backend task.'}));export default router;

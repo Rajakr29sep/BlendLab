@@ -1,0 +1,1 @@
+import React from 'react';export default function SectionTitle({eyebrow,title,link,onClick}){return <div className="section-title"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2></div>{link&&<button className="text-link" onClick={onClick}>{link} →</button>}</div>}

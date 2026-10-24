@@ -1,0 +1,2 @@
+// TODO: Add mongoose.connect(process.env.MONGODB_URI) and startup error handling.
+export async function connectDatabase(){throw new Error('MongoDB connection is intentionally not implemented in the initial scaffold.');}

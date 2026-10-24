@@ -1,0 +1,14 @@
+import express from 'express';
+import cors from 'cors';
+import morgan from 'morgan';
+import healthRoutes from './routes/health.routes.js';
+import datasetRoutes from './routes/dataset.routes.js';
+import recommendationRoutes from './routes/recommendation.routes.js';
+import experimentRoutes from './routes/experiment.routes.js';
+const app=express();
+app.use(cors({origin:process.env.CLIENT_ORIGIN||'http://localhost:5173'}));
+app.use(express.json({limit:'2mb'}));app.use(morgan('dev'));
+app.get('/api/health',(req,res)=>res.json({ok:true,service:'formulab-api',mode:'scaffold',mlConnected:false}));
+app.use('/api/health',healthRoutes);app.use('/api/datasets',datasetRoutes);app.use('/api/recommendations',recommendationRoutes);app.use('/api/experiments',experimentRoutes);
+app.use((req,res)=>res.status(404).json({message:`Route not found: ${req.method} ${req.originalUrl}`}));
+export default app;

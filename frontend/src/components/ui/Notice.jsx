@@ -1,0 +1,2 @@
+import React from 'react';import {Info,AlertTriangle,CheckCircle2} from 'lucide-react';
+export default function Notice({type='info',title,children}){const Icon=type==='warning'?AlertTriangle:type==='success'?CheckCircle2:Info;return <div className={`notice notice--${type}`}><Icon size={18}/><div><strong>{title}</strong><p>{children}</p></div></div>}

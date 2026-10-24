@@ -1,0 +1,1 @@
+import {Router} from 'express';const router=Router();router.post('/',(req,res)=>res.status(501).json({available:false,message:'Experiment persistence is not implemented yet.'}));export default router;

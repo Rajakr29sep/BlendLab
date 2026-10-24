@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+__pycache__/
+*.pyc
+.venv/
+ml-service/models/*.joblib

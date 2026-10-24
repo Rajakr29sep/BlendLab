@@ -1,0 +1,2 @@
+# Data dictionary notes
+Expected experimental fields include Protein_1, Protein_1_Ratio, Protein_2, Protein_2_Ratio, Sample, Feed, SS, MC, Material, Category, Metric, Rep and Value (exact columns vary by file). Metric values have different units; train separate target models. Replicate rows are not independent recipes. Product price, verified nutrition and consumer sensory data are not supplied by these CSVs.

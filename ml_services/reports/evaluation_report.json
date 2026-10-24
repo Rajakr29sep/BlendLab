@@ -1,0 +1,299 @@
+{
+  "split_method": "GroupShuffleSplit by formulation/process condition",
+  "metrics": [
+    {
+      "metric": "Adhesiveness",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 0.5242266292929295,
+      "RMSE": 0.8145445600911481,
+      "R2": 0.12012877398041766,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "Apparent",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 88,
+      "unique_conditions": 32,
+      "MAE": 0.039402176602256915,
+      "RMSE": 0.04736283144733952,
+      "R2": 0.7311659677395022,
+      "test_rows": 24,
+      "test_conditions": 8
+    },
+    {
+      "metric": "Apparent_Geometric",
+      "status": "trained",
+      "best_model": "Ridge",
+      "rows": 18,
+      "unique_conditions": 6,
+      "MAE": 0.1409740929021446,
+      "RMSE": 0.162469010409164,
+      "R2": -1.715240967700379,
+      "test_rows": 6,
+      "test_conditions": 2
+    },
+    {
+      "metric": "Bulk",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 95,
+      "unique_conditions": 32,
+      "MAE": 0.027617195238437545,
+      "RMSE": 0.03263785473336671,
+      "R2": 0.8091229007793944,
+      "test_rows": 24,
+      "test_conditions": 8
+    },
+    {
+      "metric": "Chewiness",
+      "status": "trained",
+      "best_model": "RandomForest",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 508.33987892287644,
+      "RMSE": 608.3791436882331,
+      "R2": 0.6892626015745691,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "Cohesion",
+      "status": "trained",
+      "best_model": "Ridge",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 0.0572590529940785,
+      "RMSE": 0.06944952843379837,
+      "R2": 0.6349312069517609,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "ER",
+      "status": "trained",
+      "best_model": "Ridge",
+      "rows": 129,
+      "unique_conditions": 31,
+      "MAE": 0.48531497854021244,
+      "RMSE": 0.6316565172728085,
+      "R2": 0.6080354343987384,
+      "test_rows": 30,
+      "test_conditions": 8
+    },
+    {
+      "metric": "Gumminess",
+      "status": "trained",
+      "best_model": "RandomForest",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 767.3897062421165,
+      "RMSE": 932.1570838397696,
+      "R2": 0.6597273235345096,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "Hardness",
+      "status": "trained",
+      "best_model": "RandomForest",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 1715.7810934790675,
+      "RMSE": 2559.3051338018463,
+      "R2": 0.505541668649421,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "L",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 107,
+      "unique_conditions": 33,
+      "MAE": 2.2226994252873142,
+      "RMSE": 2.757692749243677,
+      "R2": 0.4837384650766485,
+      "test_rows": 29,
+      "test_conditions": 9
+    },
+    {
+      "metric": "Porosity",
+      "status": "insufficient_data",
+      "rows": 6,
+      "unique_conditions": 6
+    },
+    {
+      "metric": "Resilience",
+      "status": "trained",
+      "best_model": "Ridge",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 3.2227163348172474,
+      "RMSE": 4.077691539512334,
+      "R2": 0.4284909805254946,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "Springiness",
+      "status": "trained",
+      "best_model": "RandomForest",
+      "rows": 181,
+      "unique_conditions": 25,
+      "MAE": 5.78990685514887,
+      "RMSE": 7.440466986090041,
+      "R2": 0.7381028762677546,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    {
+      "metric": "TRUE",
+      "status": "insufficient_data",
+      "rows": 6,
+      "unique_conditions": 6
+    },
+    {
+      "metric": "True",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 28,
+      "unique_conditions": 27,
+      "MAE": 0.04886069512958387,
+      "RMSE": 0.06987841110507433,
+      "R2": 0.3387297677149802,
+      "test_rows": 8,
+      "test_conditions": 7
+    },
+    {
+      "metric": "WHC",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 35,
+      "unique_conditions": 33,
+      "MAE": 120.4352157619065,
+      "RMSE": 182.89250135156948,
+      "R2": 0.4950543732270183,
+      "test_rows": 11,
+      "test_conditions": 9
+    },
+    {
+      "metric": "WHC_Ground",
+      "status": "insufficient_data",
+      "rows": 6,
+      "unique_conditions": 6
+    },
+    {
+      "metric": "a",
+      "status": "trained",
+      "best_model": "ExtraTrees",
+      "rows": 107,
+      "unique_conditions": 33,
+      "MAE": 0.9564290229885087,
+      "RMSE": 1.3472584622198525,
+      "R2": -0.28381808626139104,
+      "test_rows": 29,
+      "test_conditions": 9
+    },
+    {
+      "metric": "b",
+      "status": "trained",
+      "best_model": "Ridge",
+      "rows": 107,
+      "unique_conditions": 33,
+      "MAE": 1.6054352333317115,
+      "RMSE": 1.7765118250192677,
+      "R2": 0.6395462292137255,
+      "test_rows": 29,
+      "test_conditions": 9
+    }
+  ],
+  "data_counts": {
+    "Adhesiveness": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "Apparent": {
+      "rows": 88,
+      "unique_conditions": 32
+    },
+    "Apparent_Geometric": {
+      "rows": 18,
+      "unique_conditions": 6
+    },
+    "Bulk": {
+      "rows": 95,
+      "unique_conditions": 32
+    },
+    "Chewiness": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "Cohesion": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "ER": {
+      "rows": 129,
+      "unique_conditions": 31
+    },
+    "Gumminess": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "Hardness": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "L": {
+      "rows": 107,
+      "unique_conditions": 33
+    },
+    "Porosity": {
+      "rows": 6,
+      "unique_conditions": 6
+    },
+    "Resilience": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "Springiness": {
+      "rows": 181,
+      "unique_conditions": 25
+    },
+    "TRUE": {
+      "rows": 6,
+      "unique_conditions": 6
+    },
+    "True": {
+      "rows": 28,
+      "unique_conditions": 27
+    },
+    "WHC": {
+      "rows": 35,
+      "unique_conditions": 33
+    },
+    "WHC_Ground": {
+      "rows": 6,
+      "unique_conditions": 6
+    },
+    "a": {
+      "rows": 107,
+      "unique_conditions": 33
+    },
+    "b": {
+      "rows": 107,
+      "unique_conditions": 33
+    }
+  },
+  "important_limitations": [
+    "Material is excluded from model features because training data has Material=Extrudate while candidates are labelled Plant_Poultry_Matrix.",
+    "Predictions for a poultry product are domain-transfer hypotheses and are not validated chicken-keema measurements.",
+    "Ratios and process conditions outside training support are extrapolations and must be flagged.",
+    "Holdout scores from one grouped split are preliminary; use repeated grouped cross-validation and physical validation before claims."
+  ]
+}

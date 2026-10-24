@@ -1,0 +1,578 @@
+{
+  "Adhesiveness": {
+    "artifact": "artifacts\\adhesiveness.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 0.5242266292929295,
+      "RMSE": 0.8145445600911481,
+      "R2": 0.12012877398041766,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 0.5242266292929295,
+        "RMSE": 0.8145445600911481,
+        "R2": 0.12012877398041766,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "RandomForest": {
+        "MAE": 0.5349668870995611,
+        "RMSE": 0.8321722450803659,
+        "R2": 0.08163383648565714,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "Ridge": {
+        "MAE": 0.6612758581356347,
+        "RMSE": 0.8961896080378338,
+        "R2": -0.06509716205917981,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "Apparent": {
+    "artifact": "artifacts\\apparent.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 0.039402176602256915,
+      "RMSE": 0.04736283144733952,
+      "R2": 0.7311659677395022,
+      "test_rows": 24,
+      "test_conditions": 8
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 0.039402176602256915,
+        "RMSE": 0.04736283144733952,
+        "R2": 0.7311659677395022,
+        "test_rows": 24,
+        "test_conditions": 8
+      },
+      "RandomForest": {
+        "MAE": 0.05285280821402372,
+        "RMSE": 0.07145492675066817,
+        "R2": 0.38811009560042886,
+        "test_rows": 24,
+        "test_conditions": 8
+      },
+      "Ridge": {
+        "MAE": 0.053295104901657724,
+        "RMSE": 0.05946395303961741,
+        "R2": 0.5762433908856378,
+        "test_rows": 24,
+        "test_conditions": 8
+      }
+    },
+    "rows": 88,
+    "unique_conditions": 32
+  },
+  "Apparent_Geometric": {
+    "artifact": "artifacts\\apparent_geometric.joblib",
+    "best_model": "Ridge",
+    "validation": {
+      "MAE": 0.1409740929021446,
+      "RMSE": 0.162469010409164,
+      "R2": -1.715240967700379,
+      "test_rows": 6,
+      "test_conditions": 2
+    },
+    "comparisons": {
+      "Ridge": {
+        "MAE": 0.1409740929021446,
+        "RMSE": 0.162469010409164,
+        "R2": -1.715240967700379,
+        "test_rows": 6,
+        "test_conditions": 2
+      },
+      "RandomForest": {
+        "MAE": 0.15846798529231212,
+        "RMSE": 0.18270140443690228,
+        "R2": -2.4336108994401426,
+        "test_rows": 6,
+        "test_conditions": 2
+      },
+      "ExtraTrees": {
+        "MAE": 0.1826175875079159,
+        "RMSE": 0.2081600077070726,
+        "R2": -3.4571977011297808,
+        "test_rows": 6,
+        "test_conditions": 2
+      }
+    },
+    "rows": 18,
+    "unique_conditions": 6
+  },
+  "Bulk": {
+    "artifact": "artifacts\\bulk.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 0.027617195238437545,
+      "RMSE": 0.03263785473336671,
+      "R2": 0.8091229007793944,
+      "test_rows": 24,
+      "test_conditions": 8
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 0.027617195238437545,
+        "RMSE": 0.03263785473336671,
+        "R2": 0.8091229007793944,
+        "test_rows": 24,
+        "test_conditions": 8
+      },
+      "Ridge": {
+        "MAE": 0.03345948502751015,
+        "RMSE": 0.042181078568176246,
+        "R2": 0.6811796919866271,
+        "test_rows": 24,
+        "test_conditions": 8
+      },
+      "RandomForest": {
+        "MAE": 0.04279934760704818,
+        "RMSE": 0.05090758807542022,
+        "R2": 0.5356176993763809,
+        "test_rows": 24,
+        "test_conditions": 8
+      }
+    },
+    "rows": 95,
+    "unique_conditions": 32
+  },
+  "Chewiness": {
+    "artifact": "artifacts\\chewiness.joblib",
+    "best_model": "RandomForest",
+    "validation": {
+      "MAE": 508.33987892287644,
+      "RMSE": 608.3791436882331,
+      "R2": 0.6892626015745691,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "RandomForest": {
+        "MAE": 508.33987892287644,
+        "RMSE": 608.3791436882331,
+        "R2": 0.6892626015745691,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "ExtraTrees": {
+        "MAE": 543.0170149387437,
+        "RMSE": 613.1144866335106,
+        "R2": 0.6844065025448771,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "Ridge": {
+        "MAE": 608.8943271805036,
+        "RMSE": 766.8451572644481,
+        "R2": 0.5063032713877686,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "Cohesion": {
+    "artifact": "artifacts\\cohesion.joblib",
+    "best_model": "Ridge",
+    "validation": {
+      "MAE": 0.0572590529940785,
+      "RMSE": 0.06944952843379837,
+      "R2": 0.6349312069517609,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "Ridge": {
+        "MAE": 0.0572590529940785,
+        "RMSE": 0.06944952843379837,
+        "R2": 0.6349312069517609,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "ExtraTrees": {
+        "MAE": 0.06620805454545581,
+        "RMSE": 0.08454058686073784,
+        "R2": 0.4590381680433122,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "RandomForest": {
+        "MAE": 0.0663813053349711,
+        "RMSE": 0.08376588347329857,
+        "R2": 0.4689071504501653,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "ER": {
+    "artifact": "artifacts\\er.joblib",
+    "best_model": "Ridge",
+    "validation": {
+      "MAE": 0.48531497854021244,
+      "RMSE": 0.6316565172728085,
+      "R2": 0.6080354343987384,
+      "test_rows": 30,
+      "test_conditions": 8
+    },
+    "comparisons": {
+      "Ridge": {
+        "MAE": 0.48531497854021244,
+        "RMSE": 0.6316565172728085,
+        "R2": 0.6080354343987384,
+        "test_rows": 30,
+        "test_conditions": 8
+      },
+      "RandomForest": {
+        "MAE": 0.49904843216943107,
+        "RMSE": 0.7136806452148315,
+        "R2": 0.4996283646562939,
+        "test_rows": 30,
+        "test_conditions": 8
+      },
+      "ExtraTrees": {
+        "MAE": 0.7350061852522194,
+        "RMSE": 1.0116983201207481,
+        "R2": -0.005511177179988946,
+        "test_rows": 30,
+        "test_conditions": 8
+      }
+    },
+    "rows": 129,
+    "unique_conditions": 31
+  },
+  "Gumminess": {
+    "artifact": "artifacts\\gumminess.joblib",
+    "best_model": "RandomForest",
+    "validation": {
+      "MAE": 767.3897062421165,
+      "RMSE": 932.1570838397696,
+      "R2": 0.6597273235345096,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "RandomForest": {
+        "MAE": 767.3897062421165,
+        "RMSE": 932.1570838397696,
+        "R2": 0.6597273235345096,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "ExtraTrees": {
+        "MAE": 784.9970279491324,
+        "RMSE": 902.0795781290971,
+        "R2": 0.6813319148876102,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "Ridge": {
+        "MAE": 889.9063345556668,
+        "RMSE": 1139.7391643384863,
+        "R2": 0.49130225495699487,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "Hardness": {
+    "artifact": "artifacts\\hardness.joblib",
+    "best_model": "RandomForest",
+    "validation": {
+      "MAE": 1715.7810934790675,
+      "RMSE": 2559.3051338018463,
+      "R2": 0.505541668649421,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "RandomForest": {
+        "MAE": 1715.7810934790675,
+        "RMSE": 2559.3051338018463,
+        "R2": 0.505541668649421,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "ExtraTrees": {
+        "MAE": 1794.4812800218679,
+        "RMSE": 2498.298142129683,
+        "R2": 0.528833837672124,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "Ridge": {
+        "MAE": 2003.6179834932504,
+        "RMSE": 2908.0511609259534,
+        "R2": 0.3616047474699755,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "L": {
+    "artifact": "artifacts\\l.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 2.2226994252873142,
+      "RMSE": 2.757692749243677,
+      "R2": 0.4837384650766485,
+      "test_rows": 29,
+      "test_conditions": 9
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 2.2226994252873142,
+        "RMSE": 2.757692749243677,
+        "R2": 0.4837384650766485,
+        "test_rows": 29,
+        "test_conditions": 9
+      },
+      "Ridge": {
+        "MAE": 2.326356423701486,
+        "RMSE": 2.710718086504712,
+        "R2": 0.5011767118713826,
+        "test_rows": 29,
+        "test_conditions": 9
+      },
+      "RandomForest": {
+        "MAE": 2.722578093882473,
+        "RMSE": 3.2063161521602286,
+        "R2": 0.3021040155426824,
+        "test_rows": 29,
+        "test_conditions": 9
+      }
+    },
+    "rows": 107,
+    "unique_conditions": 33
+  },
+  "Resilience": {
+    "artifact": "artifacts\\resilience.joblib",
+    "best_model": "Ridge",
+    "validation": {
+      "MAE": 3.2227163348172474,
+      "RMSE": 4.077691539512334,
+      "R2": 0.4284909805254946,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "Ridge": {
+        "MAE": 3.2227163348172474,
+        "RMSE": 4.077691539512334,
+        "R2": 0.4284909805254946,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "RandomForest": {
+        "MAE": 4.391012617915687,
+        "RMSE": 5.232175951050723,
+        "R2": 0.05906628727304608,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "ExtraTrees": {
+        "MAE": 4.40637594696969,
+        "RMSE": 5.451878805463397,
+        "R2": -0.021613761683667798,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "Springiness": {
+    "artifact": "artifacts\\springiness.joblib",
+    "best_model": "RandomForest",
+    "validation": {
+      "MAE": 5.78990685514887,
+      "RMSE": 7.440466986090041,
+      "R2": 0.7381028762677546,
+      "test_rows": 55,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "RandomForest": {
+        "MAE": 5.78990685514887,
+        "RMSE": 7.440466986090041,
+        "R2": 0.7381028762677546,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "ExtraTrees": {
+        "MAE": 6.115928259090745,
+        "RMSE": 7.52717591172943,
+        "R2": 0.7319631704995057,
+        "test_rows": 55,
+        "test_conditions": 7
+      },
+      "Ridge": {
+        "MAE": 8.166576839473072,
+        "RMSE": 9.386973428213127,
+        "R2": 0.5831483567996603,
+        "test_rows": 55,
+        "test_conditions": 7
+      }
+    },
+    "rows": 181,
+    "unique_conditions": 25
+  },
+  "True": {
+    "artifact": "artifacts\\true.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 0.04886069512958387,
+      "RMSE": 0.06987841110507433,
+      "R2": 0.3387297677149802,
+      "test_rows": 8,
+      "test_conditions": 7
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 0.04886069512958387,
+        "RMSE": 0.06987841110507433,
+        "R2": 0.3387297677149802,
+        "test_rows": 8,
+        "test_conditions": 7
+      },
+      "RandomForest": {
+        "MAE": 0.051395141136239525,
+        "RMSE": 0.07407091884109324,
+        "R2": 0.2570007177927318,
+        "test_rows": 8,
+        "test_conditions": 7
+      },
+      "Ridge": {
+        "MAE": 0.05236774062351721,
+        "RMSE": 0.0763176948700711,
+        "R2": 0.21124265101114725,
+        "test_rows": 8,
+        "test_conditions": 7
+      }
+    },
+    "rows": 28,
+    "unique_conditions": 27
+  },
+  "WHC": {
+    "artifact": "artifacts\\whc.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 120.4352157619065,
+      "RMSE": 182.89250135156948,
+      "R2": 0.4950543732270183,
+      "test_rows": 11,
+      "test_conditions": 9
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 120.4352157619065,
+        "RMSE": 182.89250135156948,
+        "R2": 0.4950543732270183,
+        "test_rows": 11,
+        "test_conditions": 9
+      },
+      "Ridge": {
+        "MAE": 136.8409166458331,
+        "RMSE": 183.59400543867352,
+        "R2": 0.49117339674386007,
+        "test_rows": 11,
+        "test_conditions": 9
+      },
+      "RandomForest": {
+        "MAE": 145.75064479812343,
+        "RMSE": 190.76615695825566,
+        "R2": 0.4506419693181489,
+        "test_rows": 11,
+        "test_conditions": 9
+      }
+    },
+    "rows": 35,
+    "unique_conditions": 33
+  },
+  "a": {
+    "artifact": "artifacts\\a.joblib",
+    "best_model": "ExtraTrees",
+    "validation": {
+      "MAE": 0.9564290229885087,
+      "RMSE": 1.3472584622198525,
+      "R2": -0.28381808626139104,
+      "test_rows": 29,
+      "test_conditions": 9
+    },
+    "comparisons": {
+      "ExtraTrees": {
+        "MAE": 0.9564290229885087,
+        "RMSE": 1.3472584622198525,
+        "R2": -0.28381808626139104,
+        "test_rows": 29,
+        "test_conditions": 9
+      },
+      "Ridge": {
+        "MAE": 1.235230416516662,
+        "RMSE": 1.4965892359831348,
+        "R2": -0.5841886011354005,
+        "test_rows": 29,
+        "test_conditions": 9
+      },
+      "RandomForest": {
+        "MAE": 1.2591585178837754,
+        "RMSE": 1.7059307941361324,
+        "R2": -1.0583748510809925,
+        "test_rows": 29,
+        "test_conditions": 9
+      }
+    },
+    "rows": 107,
+    "unique_conditions": 33
+  },
+  "b": {
+    "artifact": "artifacts\\b.joblib",
+    "best_model": "Ridge",
+    "validation": {
+      "MAE": 1.6054352333317115,
+      "RMSE": 1.7765118250192677,
+      "R2": 0.6395462292137255,
+      "test_rows": 29,
+      "test_conditions": 9
+    },
+    "comparisons": {
+      "Ridge": {
+        "MAE": 1.6054352333317115,
+        "RMSE": 1.7765118250192677,
+        "R2": 0.6395462292137255,
+        "test_rows": 29,
+        "test_conditions": 9
+      },
+      "RandomForest": {
+        "MAE": 1.9007277977737491,
+        "RMSE": 2.227635165482155,
+        "R2": 0.4332369901865628,
+        "test_rows": 29,
+        "test_conditions": 9
+      },
+      "ExtraTrees": {
+        "MAE": 1.9863537356321619,
+        "RMSE": 2.2067871389518454,
+        "R2": 0.44379580976232,
+        "test_rows": 29,
+        "test_conditions": 9
+      }
+    },
+    "rows": 107,
+    "unique_conditions": 33
+  }
+}

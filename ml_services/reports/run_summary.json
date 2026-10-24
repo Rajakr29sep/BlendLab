@@ -1,0 +1,9 @@
+{
+  "training_rows": 1999,
+  "trained_metric_models": 16,
+  "candidate_conditions": 29,
+  "top3_file": "reports/top3_recommendations.json",
+  "full_rankings": "reports/candidate_rankings.csv",
+  "evaluation_report": "reports/evaluation_report.json",
+  "caveat": "Exploratory ranking only; poultry product transfer is unvalidated; do not represent the rank score as a validated sensory quality score."
+}
